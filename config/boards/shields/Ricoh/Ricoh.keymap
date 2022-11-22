@@ -63,7 +63,7 @@
         };
         4 {
             bindings = <
-                        &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
+                        &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &kp F11     &kp F12
                         &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans              &trans
                         &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans              &trans
                         &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans         &trans       &trans
