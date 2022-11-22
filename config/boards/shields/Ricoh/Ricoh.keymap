@@ -7,6 +7,17 @@
 #define LOWER 1
 
 / {
+    macros {
+        cat_luv: cat_luv {
+            label = "DISCORD_cat_luv";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp COLON &kp C &kp A &kp T &kp UNDER &kp L &kp U &kp V &kp COLON>
+                ;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
