@@ -1,9 +1,6 @@
-//#include <dt-bindings/zmk/matrix_transform.h>
-
 / {
     chosen {
         zmk,kscan = &kscan0;
-//        zmk,matrix_transform = &default_transform;
     };
 
     kscan0: kscan_0 {
@@ -34,16 +31,6 @@
             , <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&gpio1 7 GPIO_ACTIVE_HIGH>
-            /*, <&pro_micro 107 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>*/
             ;
     };
-
-//    default_transform: keymap_transform_0 {
-//        compatible = "zmk,master-transform";
-//        cols = <10>;
-//        rows = <9>;
-//        map = <
-//        >;
-//    };
-
 };
