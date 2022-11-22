@@ -1,0 +1,6 @@
+if SHIELD_RICOH
+
+config ZMK_KEYBOARD_NAME
+    default "Ricoh"
+
+endif
