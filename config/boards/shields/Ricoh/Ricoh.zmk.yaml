@@ -3,6 +3,9 @@ id: ricoh
 name: Ricoh
 type: shield
 url: https://github.com/alpsfordays
-requires: [nice_nano_v2]
+requires: 
+  - nice_nano_v2
+exposes:
+  - power
 features:
   - keys
