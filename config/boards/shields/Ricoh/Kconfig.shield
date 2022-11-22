@@ -1,2 +1,2 @@
 config SHIELD_RICOH
-    def_bool $(shields_list_contains,Ricoh)
+    def_bool $(shields_list_contains,ricoh)
