@@ -12,27 +12,27 @@
         diode-direction = "col2row";
 
         col-gpios
-            = <&nice_nano_v2 006 GPIO_ACTIVE_HIGH>
-            , <&nice_nano_v2 008 GPIO_ACTIVE_HIGH>
-            , <&nice_nano_v2 017 GPIO_ACTIVE_HIGH>
-            , <&nice_nano_v2 020 GPIO_ACTIVE_HIGH>
-            , <&nice_nano_v2 022 GPIO_ACTIVE_HIGH>
-            , <&nice_nano_v2 024 GPIO_ACTIVE_HIGH>
-            , <&nice_nano_v2 100 GPIO_ACTIVE_HIGH>
-            , <&nice_nano_v2 011 GPIO_ACTIVE_HIGH>
-            , <&nice_nano_v2 104 GPIO_ACTIVE_HIGH>
-            , <&nice_nano_v2 106 GPIO_ACTIVE_HIGH>
+            = <&nice_nano_v2 1 GPIO_ACTIVE_HIGH>
+            , <&nice_nano_v2 0 GPIO_ACTIVE_HIGH>
+            , <&nice_nano_v2 2 GPIO_ACTIVE_HIGH>
+            , <&nice_nano_v2 3 GPIO_ACTIVE_HIGH>
+            , <&nice_nano_v2 4 GPIO_ACTIVE_HIGH>
+            , <&nice_nano_v2 5 GPIO_ACTIVE_HIGH>
+            , <&nice_nano_v2 6 GPIO_ACTIVE_HIGH>
+            , <&nice_nano_v2 7 GPIO_ACTIVE_HIGH>
+            , <&nice_nano_v2 8 GPIO_ACTIVE_HIGH>
+            , <&nice_nano_v2 9 GPIO_ACTIVE_HIGH>
             ;
 
         row-gpios
-            = <&nice_nano_v2 031 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&nice_nano_v2 029 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&nice_nano_v2 002 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&nice_nano_v2 115 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&nice_nano_v2 113 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&nice_nano_v2 111 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&nice_nano_v2 010 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&nice_nano_v2 009 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            = <&nice_nano_v2 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&nice_nano_v2 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&nice_nano_v2 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&nice_nano_v2 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&nice_nano_v2 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&nice_nano_v2 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&nice_nano_v2 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&nice_nano_v2 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&nice_nano_v2 107 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
