@@ -3,10 +3,10 @@ if SHIELD_RICOH
 config ZMK_KEYBOARD_NAME
     default "Ricoh"
 
-CONFIG_BT
+config BT
     default y
 
-CONFIG_ZMK_BLE
+config ZMK_BLE
     default y
 
 endif
