@@ -4,3 +4,6 @@ config ZMK_KEYBOARD_NAME
     default "Ricoh"
 
 endif
+
+CONFIG_BT=y
+CONFIG_ZMK_BLE=y
