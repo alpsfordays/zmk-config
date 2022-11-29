@@ -9,11 +9,23 @@
             label = "DISCORD_cat_luv";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <10>;
+            wait-ms = <5>;
             bindings
                 = <&macro_tap &kp COLON &kp C &kp A &kp T &kp UNDER &kp L &kp U &kp V &kp COLON>
                 ;
         };
+        mac_scrn: mac_scrn {
+            label = "MAC_mac_scrn";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <5>;
+            bindings
+                = <&macro_press &kp LSHFT &kp LGUI>
+                , <&macro_tap &kp N4>
+                , <&macro_release &kp LSHFT &kp LGUI>
+                ;
+        };
+
     };
 
     keymap {
@@ -25,8 +37,8 @@
                         &kp ESC     &kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp MINUS   &kp EQUAL   &kp INT_YEN &kp DEL             &mo 2
                         &kp PSCRN   &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T       &kp Y       &kp U       &kp I       &kp O       &kp P       &kp GRAVE   &kp LBKT    &kp BSPC            &kp UP
                         &kp CAPS    &kp LCTRL   &kp A       &kp S       &kp D       &kp F       &kp G       &kp H       &kp J       &kp K       &kp L       &kp SEMI    &kp APOS    &kp RBKT    &kp ENTER      &kp LEFT    &kp RIGHT
-                        &trans      &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &trans      &kp RSHFT                       &kp DOWN
-                        &mo 4       &kp LALT    &kp LGUI    &kp SPACE   &kp SPACE   &kp RALT    &kp RCTRL   &cat_luv    &kp RGUI    &kp RCTRL                                                                       &mo 1
+                        &mac_scrn   &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &trans      &kp RSHFT                       &kp DOWN
+                        &mo 4       &kp LALT    &kp LGUI    &kp SPACE   &kp SPACE   &kp RALT    &kp RCTRL   &kp RGUI    &kp SLCK    &kp RCTRL                                                                       &mo 1
             >;
         };
         1 {
@@ -36,7 +48,7 @@
                         &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans              &bt BT_SEL 0
                         &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans          &bt BT_PRV   &bt BT_NXT
                         &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans                          &trans
-                        &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans                                                                          &trans
+                        &cat_luv    &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans                                                                          &trans
             >;
         };
         2 {
