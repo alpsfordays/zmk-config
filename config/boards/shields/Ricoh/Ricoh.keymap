@@ -63,7 +63,7 @@
         };
         3 {
             bindings = <
-                        &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &kp NLCK
+                        &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &kp KP_NLCK
                         &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans              &trans
                         &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans              &trans
                         &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans         &trans       &trans
