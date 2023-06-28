@@ -25,7 +25,6 @@
                 , <&macro_release &kp LSHFT &kp LGUI>
                 ;
         };
-
     };
 
     keymap {
@@ -37,8 +36,8 @@
                         &kp ESC     &kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp MINUS   &kp EQUAL   &kp INT_YEN &kp DEL             &mo 2
                         &kp PSCRN   &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T       &kp Y       &kp U       &kp I       &kp O       &kp P       &kp GRAVE   &kp LBKT    &kp BSPC            &kp UP
                         &kp CAPS    &kp LCTRL   &kp A       &kp S       &kp D       &kp F       &kp G       &kp H       &kp J       &kp K       &kp L       &kp SEMI    &kp APOS    &kp RBKT    &kp ENTER      &kp LEFT    &kp RIGHT
-                        &mac_scrn   &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp BSLH    &kp RSHFT                       &kp DOWN
-                        &mo 3       &kp LALT    &kp LGUI    &kp SPACE   &kp SPACE   &kp RALT    &kp RCTRL   &kp RGUI    &kp SLCK    &kp RCTRL                                                                       &mo 1
+                        &kp K_APP   &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp BSLH    &kp RSHFT                       &kp DOWN
+                        &mo 3       &kp LALT    &kp LGUI    &kp SPACE   &kp SPACE   &kp RALT    &kp RCTRL   &kp LGUI    &kp SLCK    &kp RCTRL                                                                       &mo 1
             >;
         };
         1 {
@@ -47,7 +46,7 @@
                         &bt BT_CLR  &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans              &trans
                         &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans              &bt BT_SEL 0
                         &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans          &bt BT_PRV   &bt BT_NXT
-                        &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans                          &trans
+                        &mac_scrn   &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans                          &trans
                         &cat_luv    &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans                                                                          &trans
             >;
         };
