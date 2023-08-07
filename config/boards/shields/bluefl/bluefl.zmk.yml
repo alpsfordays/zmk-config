@@ -1,0 +1,9 @@
+file_format: "1"
+id: bluefl
+name: blueFL
+type: shield
+url: https://github.com/alpsfordays/blueFL/
+requires: [seeeduino_xiao_ble]
+exposes: power
+features:
+  - keys

@@ -1,4 +1,4 @@
-if SHIELD_RICOH
+if SHIELD_PLANCKML
 
 config ZMK_KEYBOARD_NAME
     default "planckML"
