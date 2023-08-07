@@ -1,0 +1,12 @@
+if SHIELD_PLANCKML
+
+config ZMK_KEYBOARD_NAME
+    default "planckML"
+
+config BT
+    default y
+
+config ZMK_BLE
+    default y
+
+endif
